@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('Enter your test: ', (answer) => {
+rl.question('Enter your age: ', (answer) => {
     
     
     var age= parseInt(answer);
